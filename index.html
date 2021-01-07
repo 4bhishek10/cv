@@ -4,10 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Abhishek's Personal Site</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <table cellspacing="20">
+  <table cellspacing="20" class="table-centering">
     <tr>
       <td>
         <img src="me.png" alt="Abhishek Dhondge" height="200">
@@ -22,40 +23,43 @@
     </tr>
   </table>
 
-  <hr size="3">
+  <hr>
 
   <h3>Education</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Sr no.</th>
-        <th>Course</th>
-        <th>Name of Institute</th>
-        <th>Percentage</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>10th</td>
-        <td>Sadhna Vidyalaya</td>
-        <td>87.00</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>12th</td>
-        <td>R.R.Shinde jr college</td>
-        <td>58.15</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Batchlor of Engineering</td>
-        <td>JSPM college of Engineering Pune</td>
-        <td>6.3 sgpa</td>
-      </tr>
-    </tbody>
 
-  </table>
+    <table cellspacing="10" class="table-centering">
+      <thead>
+        <tr>
+          <th>Sr no.</th>
+          <th>Course</th>
+          <th>Name of Institute</th>
+          <th>Percentage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>10th</td>
+          <td>Sadhna Vidyalaya</td>
+          <td>87.00</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>12th</td>
+          <td>R.R.Shinde jr college</td>
+          <td>58.15</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Batchlor of Engineering</td>
+          <td>JSPM college of Engineering Pune</td>
+          <td>6.3 sgpa</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+
 
   <hr>
   <p>
@@ -73,37 +77,43 @@
     </li><br>
     <li>
       <strong>Certification : </strong><br>
-      <ol>
-        <li>Android (Udemy)</li>
-        <li>Android Crash Course (Sinhagad College)</li>
-        <li>HTML (SoloLearn)</li>
-        <li>CSS (SoloLearn)</li>
-        <li>Complete Web Development Bootcamp (Udemy)</li>
-        <li>C++ (Private Academy)</li>
-        <li>Python for everybody (coursera)</li>
-      </ol>
+      <div class="div-centering">
+        <ol>
+          <li>Android (Udemy)</li>
+          <li>Android Crash Course (Sinhagad College)</li>
+          <li>HTML (SoloLearn)</li>
+          <li>CSS (SoloLearn)</li>
+          <li>Complete Web Development Bootcamp (Udemy)</li>
+          <li>C++ (Private Academy)</li>
+          <li>Python for everybody (coursera)</li>
+        </ol>
+      </div>
+
       <br>
     </li>
     <li><strong>Extracurricular Activities / Hobbies : </strong></li>
-    <ul>
-      <li>Sports: cricket, Badminton</li>
-      <li>Fitness: cardio, jumping rope</li>
-      <li>Listening music, watching Movies</li>
-      <li>Camping</li>
-      <li>NCC cadet</li>
-    </ul>
-    <li><strong>Personality Traits : </strong></li>
-    <ul>
-      <li>Adaptable</li>
-      <li>Friendly</li>
-      <li>Team player</li>
-    </ul>
-  </p>
+    <div class="div-centering">
+      <ul>
+        <li>Sports: cricket, Badminton</li>
+        <li>Fitness: cardio, jumping rope</li>
+        <li>Listening music, watching Movies</li>
+        <li>Camping</li>
+        <li>NCC cadet</li>
+      </ul>
+      <li><strong>Personality Traits : </strong></li>
+      <ul>
+        <li>Adaptable</li>
+        <li>Friendly</li>
+        <li>Team player</li>
+      </ul>
+    </p>
+    </div>
+
   <hr>
 
 
   <li><strong>Skills</strong> </li>
-  <table cellspacing="10">
+  <table cellspacing="10" class="table-centering">
     <tr>
       <td>Android Development - </td>
       <td>★★★★☆</td>
@@ -115,24 +125,26 @@
   </table>
   <hr>
   <ul>
-  <li><h3>Contact Me</h3></li>
-   <p>
-     <form class="" action="mailto:abhishek.dhondge10@gmail.com" method="post" enctype="text/plain">
-       <table>
-         <tr>
-           <td><label>Your Name : </label></td>
-           <td><input type="text" name="Name" value=""></td>
-         </tr>
-         <tr>
-           <td><label>Email : </label></td>
-           <td><input type="email" name="Email" value=""></td>
-         </tr>
-       </table>
-       <label>Your Message : </label><br>
-       <textarea name="Message" rows="10" cols="30"></textarea><br>
-       <input type="submit" name="" value="Submit"><br>
-     </form>
-   </p>
+    <li>
+      <h3>Contact Me</h3>
+    </li>
+    <p>
+      <form class="" action="mailto:abhishek.dhondge10@gmail.com" method="post" enctype="text/plain">
+        <table class="table-centering">
+          <tr>
+            <td><label>Your Name : </label></td>
+            <td><input type="text" name="Name" value=""></td>
+          </tr>
+          <tr>
+            <td><label>Email : </label></td>
+            <td><input type="email" name="Email" value=""></td>
+          </tr>
+        </table>
+        <label>Your Message : </label><br>
+        <textarea name="Message" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="" value="Submit"><br>
+      </form>
+    </p>
   </ul>
 </body>
 
